@@ -1,0 +1,666 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Navbar */
+
+.nav-link {
+  text-align: center;
+}
+
+#profile1 {
+  display: none;
+  text-decoration: none;
+}
+
+.nav-link-profile2 {
+  padding-top: 0.5vh;
+  margin-left: 59vw;
+}
+
+.navbar {
+  background-color: #0000aa;
+}
+
+.logo img {
+  position: absolute;
+  z-index: 3;
+  margin-top: -2vh;
+  width: 8vw;
+}
+
+.navbar-nav {
+  margin-left: 10vw;
+  color: white;
+}
+
+/* Bagian 1 */
+
+.dua-pemain img {
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 89.5vh;
+}
+
+.carousel-inner img {
+  height: 91vh;
+}
+
+.match {
+  width: 90vw;
+  margin: 5vh auto 7vh;
+  border-radius: 20px;
+  background-color: blue;
+}
+
+.match h1 {
+  padding: 3vh 0 0 3vw;
+  font-size: 2vw;
+  color: white;
+}
+
+.team {
+  width: 30vw;
+  display: flex;
+  margin: auto;
+  padding: 3vh 0;
+  justify-content: space-evenly;
+  color: white;
+}
+
+.mt {
+  margin: auto;
+  text-align: center;
+  color: white;
+  padding-bottom: 7vh;
+}
+
+.mt h1,
+.mt p {
+  font-size: 4vh;
+}
+
+#vs {
+  font-size: 6vh;
+  display: flex;
+  align-items: center;
+}
+
+.team-satu img {
+  width: 7vw;
+}
+
+.team-dua img {
+  width: 7vw;
+}
+
+.berita {
+  color: white;
+  background-color: blue;
+  padding-bottom: 11vh;
+}
+
+#title {
+  padding: 9vh 0 6vh 4.5vw;
+}
+
+.berita-terbaru {
+  width: 90vw;
+  height: 60vh;
+  background-repeat: no-repeat;
+  margin: auto;
+  background-image: url(2.jpg);
+  background-size: cover;
+  border-radius: 30px;
+  border: 1px solid blue;
+}
+
+.berita-terbaru h2 {
+  width: 35vw;
+  margin-top: 17vw;
+  margin-left: 2.5vw;
+}
+
+.berita-terbaru p {
+  width: 35vw;
+  margin-left: 2.5vw;
+}
+
+/* Scroll */
+
+.scrolling-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.kartu {
+  width: 55vh;
+  height: 30vh;
+  flex: 0 0 auto;
+  margin: 4vh 3vh 4vh 6vh;
+  border-radius: 30px;
+  color: transparent;
+  border: 1px solid #d9d9d9;
+  background-color: #d9d9d9;
+}
+
+#sponsor {
+  padding: 5vh 0;
+  margin-left: 9vh;
+}
+
+.scrolling-wrapper-2 {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.kartu-2 {
+  width: 35vh;
+  height: 25vh;
+  flex: 0 0 auto;
+  margin: 4vh 3vh 4vh 6vh;
+  border-radius: 30px;
+  background: url(kopi.png);
+  background-size: cover;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  color: transparent;
+  border: 1px solid blue;
+}
+
+.kartu-2 h2 {
+  text-align: center;
+}
+
+/* Footer */
+
+.bg-footer {
+  width: auto;
+  background-color: blue;
+  position: relative;
+}
+
+.footer {
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding-top: 5vh;
+  color: white;
+}
+
+/* Left */
+
+.left p a {
+  font-size: 2vw;
+  line-height: 8vh;
+  color: white;
+  text-decoration: none;
+}
+
+/* Middle */
+
+.middle {
+  text-align: center;
+}
+
+.logos img {
+  width: 19vh;
+}
+
+.sponsorship {
+  width: 39vh;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5vh;
+}
+
+.sponsorship1,
+.sponsorship2,
+.sponsorship3,
+.sponsorship4 {
+  width: 6vh;
+  height: 6vh;
+  border-radius: 30px;
+  background-color: white;
+}
+
+.sponsorship1 {
+  background: url(icons8-youtube-48.png);
+  background-size: cover;
+}
+.sponsorship2 {
+  background: url(icons8-facebook-48.png);
+  background-size: cover;
+}
+.sponsorship3 {
+  background: url(icons8-instagram-48.png);
+  background-size: cover;
+}
+.sponsorship4 {
+  background: url(icons8-twitter-48.png);
+  background-size: cover;
+}
+
+/* Right */
+
+.locate p {
+  font-size: 2vw;
+  line-height: 5vh;
+}
+
+.copyright p {
+  font-size: 2vw;
+  line-height: 12vh;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1024px) {
+  /* Footer */
+
+  .footer {
+    width: 90vw;
+  }
+
+  .nav-link-profile2 {
+    padding-top: 0.5vh;
+    margin-left: 51vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    margin-left: 0vw;
+    color: white;
+  }
+
+  #profile1 {
+    display: block;
+  }
+
+  .nav-link-profile2 {
+    display: none;
+    text-align: center;
+    padding-top: 0;
+    margin-left: 0;
+  }
+
+  .logo img {
+    width: 9vh;
+    margin-top: -4.5vh;
+    position: absolute;
+  }
+
+  /* Bagian1 */
+
+  .match h1 {
+    font-size: 4vh;
+  }
+  #vs {
+    font-size: 5vh;
+    display: flex;
+    align-items: center;
+  }
+  .team-satu img {
+    width: 15vh;
+  }
+
+  .team-dua img {
+    width: 15vh;
+  }
+
+  .mt h1,
+  .mt p {
+    font-size: 4vh;
+  }
+
+  .berita-terbaru {
+    background-position-x: -222px;
+  }
+
+  .berita-terbaru h2 {
+    font-size: 3vw;
+    margin-top: 25vw;
+  }
+
+  .berita-terbaru p {
+    font-size: 2.3vw;
+  }
+
+  /* Footer */
+
+  .sponsorship {
+    width: 45vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+  }
+
+  .sponsorship1,
+  .sponsorship2,
+  .sponsorship3,
+  .sponsorship4 {
+    width: 6.5vh;
+    height: 6.5vh;
+  }
+
+  .left p a {
+    font-size: 3.5vh;
+    line-height: normal;
+  }
+
+  .locate p {
+    font-size: 3.5vh;
+  }
+
+  .copyright p {
+    font-size: 3.5vh;
+    line-height: normal;
+  }
+}
+
+@media (max-width: 500px) {
+  /* Navbar */
+
+  .navbar-nav {
+    margin-left: 0vw;
+    color: white;
+  }
+
+  #profile1 {
+    display: block;
+  }
+
+  .nav-link-profile2 {
+    display: none;
+    text-align: center;
+    padding-top: 0;
+    margin-left: 0;
+  }
+
+  .logo img {
+    width: 9vh;
+    margin-top: -4.5vh;
+    position: absolute;
+  }
+
+  /* Bagian 1 */
+
+  .match h1 {
+    padding: 3vh 0 0 3vw;
+    font-size: 5vw;
+    color: white;
+  }
+
+  .team {
+    width: 50vw;
+  }
+
+  .team-satu img {
+    width: 25vw;
+  }
+
+  .team-dua img {
+    width: 25vw;
+  }
+
+  #title {
+    padding: 7vh 0 7vh;
+    text-align: center;
+  }
+
+  .berita-terbaru {
+    width: 90vw;
+    height: 45vh;
+    background-size: cover;
+    background-position-x: center;
+    border-radius: 30px;
+  }
+
+  .berita-terbaru h2 {
+    width: 45vw;
+    font-size: 4vw;
+    margin-top: 35vw;
+    margin-left: 5vw;
+  }
+
+  .berita-terbaru p {
+    width: 35vw;
+    font-size: 3.3vw;
+    margin-left: 5vw;
+  }
+
+  .mt h1 {
+    font-size: 5.2vw;
+  }
+
+  .mt p {
+    font-size: 6vw;
+  }
+
+  /* Scroll */
+
+  .kartu {
+    width: 35vh;
+    height: 25vh;
+    flex: 0 0 auto;
+    margin: 4vh 3vh 4vh 6vh;
+    border-radius: 30px;
+    color: transparent;
+    border: 1px solid #d9d9d9;
+    background-color: #d9d9d9;
+  }
+
+  #sponsor {
+    padding: 5vh 0;
+    margin-left: 9vh;
+  }
+
+  .scrolling-wrapper-2 {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+
+  .kartu-2 {
+    width: 27vh;
+    height: 17vh;
+    flex: 0 0 auto;
+    margin: 4vh 3vh 4vh 6vh;
+    border-radius: 30px;
+    background: url(kopi.png);
+    background-size: cover;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    color: transparent;
+    border: 1px solid blue;
+  }
+
+  .kartu-2 h2 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 425px) {
+  /* Footer */
+
+  .carousel-inner img {
+    height: 51vh;
+  }
+
+  .sponsorship {
+    width: 56vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+  }
+
+  .sponsorship1,
+  .sponsorship2,
+  .sponsorship3,
+  .sponsorship4 {
+    width: 8vh;
+    height: 8vh;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .left {
+    position: relative;
+    z-index: 2;
+    order: 2;
+  }
+
+  .middle {
+    width: 90vw;
+    order: 1;
+    position: absolute;
+    text-align: right;
+  }
+
+  .right {
+    order: 3;
+  }
+
+  .logos img {
+    width: 19vh;
+  }
+
+  .sponsorship {
+    width: 45vw;
+    display: flex;
+    align-content: space-around;
+    float: right;
+    margin-top: 38vh;
+  }
+
+  .left p a {
+    font-size: 3.9vw;
+    line-height: 6vh;
+  }
+
+  .locate {
+    padding-top: 5vh;
+  }
+
+  .locate p {
+    font-size: 3.9vw;
+    line-height: 4.5vh;
+  }
+
+  .copyright p {
+    font-size: 3.9vw;
+    padding-top: 5.5vh;
+  }
+}
+
+@media (max-width: 375px) {
+  .carousel-inner img {
+    height: 46vh;
+  }
+
+  .berita-terbaru {
+    height: 55vw;
+  }
+
+  .berita-terbaru h2 {
+    margin-top: 30vw;
+  }
+
+  /* Footer */
+
+  .sponsorship {
+    width: 27vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 39vh;
+  }
+
+  .sponsorship1,
+  .sponsorship2,
+  .sponsorship3,
+  .sponsorship4 {
+    width: 6vh;
+    height: 6vh;
+  }
+
+  .left p a {
+    font-size: 4.5vw;
+    line-height: 6vh;
+  }
+
+  .locate {
+    padding-top: 7vh;
+  }
+
+  .locate p {
+    font-size: 4.7vw;
+    line-height: 4.5vh;
+  }
+
+  .copyright p {
+    font-size: 4.5vw;
+    padding-top: 3.5vh;
+  }
+}
+
+@media (max-width: 320px) {
+  /* Footer */
+
+  .carousel-inner img {
+    height: 41vh;
+  }
+
+  .footer {
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+  }
+
+  .sponsorship {
+    width: 10vh;
+    display: grid;
+    grid-template-areas:
+      'sponsorship1 sponsorship2'
+      'sponsorship3 sponsorship4';
+    gap: 3vh;
+    justify-content: space-between;
+    margin-top: 32.5vh;
+    margin-right: 40vh;
+  }
+
+  .sponsorship1,
+  .sponsorship2,
+  .sponsorship3,
+  .sponsorship4 {
+    width: 6vh;
+    height: 6vh;
+    border-radius: 30px;
+  }
+
+  .left p a {
+    font-size: 5.6vw;
+    line-height: 6vh;
+  }
+
+  .locate {
+    padding-top: 7vh;
+  }
+
+  .locate p {
+    font-size: 5.9vw;
+    text-align: right;
+    line-height: 4.5vh;
+  }
+
+  .copyright p {
+    font-size: 5vw;
+    padding-top: 3vh;
+    padding-left: 39vw;
+  }
+}

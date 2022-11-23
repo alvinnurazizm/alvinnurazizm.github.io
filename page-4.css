@@ -1,0 +1,467 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* NavBar */
+
+.nav-link {
+  text-align: center;
+}
+
+#profile1 {
+  display: none;
+  text-decoration: none;
+}
+
+.nav-link-profile2 {
+  padding-top: 0.5vh;
+  margin-left: 59vw;
+}
+
+.navbar {
+  background-color: #0000aa;
+}
+
+.logo img {
+  position: absolute;
+  margin-top: -2vh;
+  width: 8vw;
+}
+
+.navbar-nav {
+  margin-left: 10vw;
+  color: white;
+}
+
+/* BAGIAN 4 */
+
+.judul1 {
+  width: 30vw;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  padding-top: 10vh;
+}
+
+.judul1 h5 {
+  font-weight: bold;
+}
+
+.judul1 h6 {
+  font-size: 1.5vw;
+  opacity: 0.8;
+}
+
+.judul2 {
+  padding-left: 4vw;
+}
+
+.judul2 h1 {
+  width: 55vw;
+  padding: 5vh 0;
+}
+
+.bg4-tengah {
+  width: 90vw;
+  text-align: justify;
+  margin: auto;
+}
+
+.hero img {
+  width: 90vw;
+}
+
+/* Footer */
+
+.bg-footer {
+  width: auto;
+  position: relative;
+  margin-top: 9vh;
+  background-color: blue;
+}
+
+.footer {
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding-top: 5vh;
+  color: white;
+}
+
+/* Left */
+
+.left p a {
+  font-size: 2vw;
+  line-height: 8vh;
+  color: white;
+  text-decoration: none;
+}
+
+/* Middle */
+
+.middle {
+  text-align: center;
+}
+
+.logos img {
+  width: 19vh;
+}
+
+.sponsorship {
+  width: 39vh;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5vh;
+}
+
+.sponsorship1,
+.sponsorship2,
+.sponsorship3,
+.sponsorship4 {
+  width: 6vh;
+  height: 6vh;
+  border-radius: 30px;
+  background-color: white;
+}
+
+.sponsorship1 {
+  background: url(icons8-youtube-48.png);
+  background-size: cover;
+}
+.sponsorship2 {
+  background: url(icons8-facebook-48.png);
+  background-size: cover;
+}
+.sponsorship3 {
+  background: url(icons8-instagram-48.png);
+  background-size: cover;
+}
+.sponsorship4 {
+  background: url(icons8-twitter-48.png);
+  background-size: cover;
+}
+
+/* Right */
+
+.locate p {
+  font-size: 2vw;
+  line-height: 5vh;
+}
+
+.copyright p {
+  font-size: 2vw;
+  line-height: 12vh;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1024px) {
+  /* Footer */
+
+  .footer {
+    width: 90vw;
+  }
+
+  .nav-link-profile2 {
+    padding-top: 0.5vh;
+    margin-left: 51vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    margin-left: 0vw;
+    color: white;
+  }
+
+  #profile1 {
+    display: block;
+  }
+
+  .nav-link-profile2 {
+    display: none;
+    text-align: center;
+    padding-top: 0;
+    margin-left: 0;
+  }
+
+  .logo img {
+    width: 9vh;
+    margin-top: -4.5vh;
+    position: absolute;
+  }
+
+  /* Page 4 */
+  .judul1 {
+    width: 51vw;
+    justify-content: space-between;
+    text-align: center;
+    padding-left: 5.5vh;
+  }
+
+  .judul1 h6 {
+    font-size: 3vw;
+    opacity: 0.8;
+  }
+
+  /* Footer */
+
+  .sponsorship {
+    width: 45vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+  }
+
+  .sponsorship1,
+  .sponsorship2,
+  .sponsorship3,
+  .sponsorship4 {
+    width: 6.5vh;
+    height: 6.5vh;
+  }
+
+  .left p a {
+    font-size: 3.5vh;
+    line-height: normal;
+  }
+
+  .locate p {
+    font-size: 3.5vh;
+  }
+
+  .copyright p {
+    font-size: 3.5vh;
+    line-height: normal;
+  }
+}
+
+@media (max-width: 500px) {
+  /* NavBar */
+
+  .navbar-nav {
+    margin-left: 0vw;
+    color: white;
+  }
+
+  #profile1 {
+    display: block;
+  }
+
+  .nav-link-profile2 {
+    display: none;
+    text-align: center;
+    padding-top: 0;
+    margin-left: 0;
+  }
+
+  .logo img {
+    width: 9vh;
+    margin-top: -4.5vh;
+    position: absolute;
+  }
+
+  /* BAGIAN 4 */
+
+  .judul1 {
+    width: 91vw;
+    padding-left: 0;
+    margin: auto;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  .judul1 h6 {
+    font-size: 4.5vw;
+    opacity: 0.8;
+  }
+
+  .judul2 {
+    padding-left: 4.5vw;
+  }
+
+  .judul2 h1 {
+    font-size: 7vw;
+    width: 90vw;
+  }
+
+  .bg4-tengah {
+    width: 90vw;
+    text-align: justify;
+    margin: auto;
+  }
+
+  .hero img {
+    width: 90vw;
+  }
+}
+
+@media (max-width: 425px) {
+  /* Footer */
+
+  .carousel-inner img {
+    height: 51vh;
+  }
+
+  .sponsorship {
+    width: 56vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+  }
+
+  .sponsorship1,
+  .sponsorship2,
+  .sponsorship3,
+  .sponsorship4 {
+    width: 8vh;
+    height: 8vh;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .left {
+    position: relative;
+    z-index: 2;
+    order: 2;
+  }
+
+  .middle {
+    width: 90vw;
+    order: 1;
+    position: absolute;
+    text-align: right;
+  }
+
+  .right {
+    order: 3;
+  }
+
+  .logos img {
+    width: 19vh;
+  }
+
+  .sponsorship {
+    width: 45vw;
+    display: flex;
+    align-content: space-around;
+    float: right;
+    margin-top: 38vh;
+  }
+
+  .left p a {
+    font-size: 3.9vw;
+    line-height: 6vh;
+  }
+
+  .locate {
+    padding-top: 5vh;
+  }
+
+  .locate p {
+    font-size: 3.9vw;
+    line-height: 4.5vh;
+  }
+
+  .copyright p {
+    font-size: 3.9vw;
+    padding-top: 5.5vh;
+  }
+}
+
+@media (max-width: 375px) {
+  /* Footer */
+
+  .sponsorship {
+    width: 27vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 39vh;
+  }
+
+  .sponsorship1,
+  .sponsorship2,
+  .sponsorship3,
+  .sponsorship4 {
+    width: 6vh;
+    height: 6vh;
+  }
+
+  .left p a {
+    font-size: 4.5vw;
+    line-height: 6vh;
+  }
+
+  .locate {
+    padding-top: 7vh;
+  }
+
+  .locate p {
+    font-size: 4.7vw;
+    line-height: 4.5vh;
+  }
+
+  .copyright p {
+    font-size: 4.5vw;
+    padding-top: 3.5vh;
+  }
+}
+
+@media (max-width: 320px) {
+  /* Footer */
+
+  .carousel-inner img {
+    height: 41vh;
+  }
+
+  .footer {
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+  }
+
+  .sponsorship {
+    width: 10vh;
+    display: grid;
+    grid-template-areas:
+      'sponsorship1 sponsorship2'
+      'sponsorship3 sponsorship4';
+    gap: 3vh;
+    justify-content: space-between;
+    margin-top: 32.5vh;
+    margin-right: 40vh;
+  }
+
+  .sponsorship1,
+  .sponsorship2,
+  .sponsorship3,
+  .sponsorship4 {
+    width: 6vh;
+    height: 6vh;
+    border-radius: 30px;
+  }
+
+  .left p a {
+    font-size: 5.6vw;
+    line-height: 6vh;
+  }
+
+  .locate {
+    padding-top: 7vh;
+  }
+
+  .locate p {
+    font-size: 5.9vw;
+    text-align: right;
+    line-height: 4.5vh;
+  }
+
+  .copyright p {
+    font-size: 5vw;
+    padding-top: 3vh;
+    padding-left: 39vw;
+  }
+}

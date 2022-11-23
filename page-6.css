@@ -1,0 +1,642 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.nav-link {
+  text-align: center;
+}
+
+#profile1 {
+  display: none;
+  text-decoration: none;
+}
+
+.nav-link-profile2 {
+  padding-top: 0.5vh;
+  margin-left: 59vw;
+}
+
+.navbar {
+  background-color: #0000aa;
+}
+
+.logo img {
+  position: absolute;
+  margin-top: -2vh;
+  width: 8vw;
+}
+
+.navbar-nav {
+  margin-left: 10vw;
+  color: white;
+}
+
+/* BAGIAN 6 */
+
+.pemain {
+  display: grid;
+  grid-template-areas:
+    'pemain1 pemain2 pemain3'
+    'pemain4 pemain5 pemain6';
+  grid-template-columns: 25vw 25vw 25vw;
+  justify-content: space-evenly;
+  gap: 10vh 0;
+  margin: auto;
+  padding-bottom: 10vh;
+}
+
+.card-pemain {
+  width: 25vw;
+  text-align: center;
+  border-radius: 40px;
+  border: 1px solid #0000aa;
+}
+
+.penjaga-gawang {
+  display: grid;
+  grid-template-areas:
+    'pemain1'
+    'pemain2'
+    'pemain3';
+  grid-template-columns: 25vw 25vw 25vw;
+  justify-content: space-evenly;
+  gap: 10vh 0;
+  margin: auto;
+  padding-bottom: 1vh;
+}
+
+.card-penjaga-gawang {
+  width: 25vw;
+  text-align: center;
+  border-radius: 40px;
+  border: 1px solid #0000aa;
+}
+
+.bek h1 {
+  padding: 9vh 0 7vh 0;
+  color: #0000aa;
+  text-align: center;
+}
+
+.gelandang h1 {
+  padding: 9vh 0 7vh 0;
+  color: #0000aa;
+  text-align: center;
+}
+
+.gambar-pemain {
+  margin: auto;
+}
+
+.gambar-pemain img {
+  width: 20vw;
+  padding: 5vh 0 5vh 0;
+}
+
+.team-pemain h2 {
+  padding-top: 5vh;
+  font-size: 2vw;
+}
+
+.team-pemain p {
+  color: #0000aa;
+  font-size: 4vw;
+}
+
+.role-pemain p {
+  width: 12vw;
+  padding: 1vh 0.2vw;
+  border-radius: 20px;
+  margin: auto;
+  color: white;
+  background: rgba(0, 0, 170, 0.79);
+  border: 1px solid #0000aa;
+}
+
+.gawang h1 {
+  padding: 9vh 0;
+  width: 30vw;
+  margin: auto;
+  color: #0000aa;
+  text-align: center;
+}
+
+/* Footer */
+
+.bg-footer {
+  width: auto;
+  background-color: blue;
+  position: relative;
+}
+
+.footer {
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding-top: 5vh;
+  color: white;
+}
+
+/* Left */
+
+.left p a {
+  font-size: 2vw;
+  line-height: 8vh;
+  color: white;
+  text-decoration: none;
+}
+
+/* Middle */
+
+.middle {
+  text-align: center;
+}
+
+.logos img {
+  width: 19vh;
+}
+
+.sponsorship {
+  width: 39vh;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5vh;
+}
+
+.sponsorship1,
+.sponsorship2,
+.sponsorship3,
+.sponsorship4 {
+  width: 6vh;
+  height: 6vh;
+  border-radius: 30px;
+  background-color: white;
+}
+
+.sponsorship1 {
+  background: url(icons8-youtube-48.png);
+  background-size: cover;
+}
+.sponsorship2 {
+  background: url(icons8-facebook-48.png);
+  background-size: cover;
+}
+.sponsorship3 {
+  background: url(icons8-instagram-48.png);
+  background-size: cover;
+}
+.sponsorship4 {
+  background: url(icons8-twitter-48.png);
+  background-size: cover;
+}
+
+/* Right */
+
+.locate p {
+  font-size: 2vw;
+  line-height: 5vh;
+}
+
+.copyright p {
+  font-size: 2vw;
+  line-height: 12vh;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1024px) {
+  /* Footer */
+
+  .footer {
+    width: 90vw;
+  }
+
+  .nav-link-profile2 {
+    padding-top: 0.5vh;
+    margin-left: 51vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    margin-left: 0vw;
+    color: white;
+  }
+
+  #profile1 {
+    display: block;
+  }
+
+  .nav-link-profile2 {
+    display: none;
+    text-align: center;
+    padding-top: 0;
+    margin-left: 0;
+  }
+
+  .logo img {
+    width: 9vh;
+    margin-top: -4.5vh;
+    position: absolute;
+  }
+
+  /* Bagian 6 */
+
+  .gawang h1 {
+    width: 42vw;
+    font-size: 6vh;
+  }
+
+  .role-pemain p {
+    width: 28vh;
+    padding: 1vh 0.2vw;
+    border-radius: 20px;
+    margin: auto;
+    color: white;
+    background: rgba(0, 0, 170, 0.79);
+    border: 1px solid #0000aa;
+  }
+
+  .team-pemain h2 {
+    font-size: 2.8vh;
+    font-weight: 700;
+    padding-top: 5vh;
+  }
+
+  .team-pemain p {
+    font-size: 9vh;
+    font-weight: 600;
+    color: #0000aa;
+  }
+
+  /* Footer */
+
+  .sponsorship {
+    width: 45vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+  }
+
+  .sponsorship1,
+  .sponsorship2,
+  .sponsorship3,
+  .sponsorship4 {
+    width: 6.5vh;
+    height: 6.5vh;
+  }
+
+  .left p a {
+    font-size: 3.5vh;
+    line-height: normal;
+  }
+
+  .locate p {
+    font-size: 3.5vh;
+  }
+
+  .copyright p {
+    font-size: 3.5vh;
+    line-height: normal;
+  }
+}
+
+@media (max-width: 500px) {
+  .navbar-nav {
+    margin-left: 0vw;
+    color: white;
+  }
+
+  #profile1 {
+    display: block;
+  }
+
+  .nav-link-profile2 {
+    display: none;
+    text-align: center;
+    padding-top: 0;
+    margin-left: 0;
+  }
+
+  .logo img {
+    width: 9vh;
+    margin-top: -4.5vh;
+    position: absolute;
+  }
+
+  /* BAGIAN 6 */
+
+  .gawang h1 {
+    padding: 9vh 0 7vh 0;
+    text-align: center;
+  }
+
+  .pemain {
+    display: grid;
+    grid-template-areas:
+      'pemain1 pemain2'
+      'pemain3 pemain4'
+      'pemain5 pemain6';
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+
+  .penjaga-gawang {
+    display: grid;
+    grid-template-areas:
+      'pemain1 pemain2'
+      'pemain3';
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .card-pemain {
+    width: 35vw;
+  }
+
+  .card-penjaga-gawang {
+    width: 65vw;
+  }
+
+  .bek h1 {
+    padding: 9vh 0 7vh 0;
+    text-align: center;
+  }
+
+  .gelandang h1 {
+    padding: 9vh 0 7vh 0;
+    text-align: center;
+  }
+
+  .gambar-pemain {
+    margin: auto;
+  }
+
+  .gambar-pemain img {
+    width: 35vw;
+    padding: 5vh 0 5vh 0;
+  }
+
+  .team-pemain h2 {
+    padding-top: 5vh;
+    font-size: 6vw;
+  }
+
+  .team-pemain p {
+    color: #0000aa;
+    font-size: 8vw;
+  }
+
+  .role-pemain p {
+    width: 31vw;
+    padding: 1vh 0.2vw;
+    border-radius: 20px;
+    margin: auto;
+    color: white;
+    background: rgba(0, 0, 170, 0.79);
+    border: 1px solid #0000aa;
+  }
+}
+
+@media (max-width: 425px) {
+  .gawang h1 {
+    width: 60vw;
+    padding: 9vh 0 7vh 0;
+    text-align: center;
+  }
+
+  .pemain {
+    display: grid;
+    grid-template-areas:
+      'pemain1'
+      'pemain2'
+      'pemain3'
+      'pemain4'
+      'pemain5'
+      'pemain6';
+    grid-template-columns: 25vw;
+    justify-items: center;
+  }
+
+  .penjaga-gawang {
+    display: grid;
+    grid-template-areas:
+      'pemain1'
+      'pemain2'
+      'pemain3';
+    grid-template-columns: 25vw;
+    justify-content: space-evenly;
+    gap: 10vh 0;
+    margin: auto;
+    padding-bottom: 1vh;
+  }
+
+  .card-pemain {
+    width: 75vw;
+  }
+
+  .card-penjaga-gawang {
+    width: 75vw;
+  }
+
+  .bek h1 {
+    padding: 9vh 0 7vh 0;
+    text-align: center;
+  }
+
+  .gelandang h1 {
+    padding: 9vh 0 7vh 0;
+    text-align: center;
+  }
+
+  .gambar-pemain {
+    margin: auto;
+  }
+
+  .gambar-pemain img {
+    width: 40vh;
+    padding: 5vh 0 5vh 0;
+  }
+
+  .team-pemain h2 {
+    font-size: 6vh;
+    padding-top: 5vh;
+  }
+
+  .team-pemain p {
+    font-size: 9vh;
+    color: #0000aa;
+  }
+
+  .role-pemain p {
+    width: 41vw;
+  }
+
+  /* Footer */
+
+  .carousel-inner img {
+    height: 51vh;
+  }
+
+  .sponsorship {
+    width: 56vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+  }
+
+  .sponsorship1,
+  .sponsorship2,
+  .sponsorship3,
+  .sponsorship4 {
+    width: 8vh;
+    height: 8vh;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .left {
+    position: relative;
+    z-index: 2;
+    order: 2;
+  }
+
+  .middle {
+    width: 90vw;
+    order: 1;
+    position: absolute;
+    text-align: right;
+  }
+
+  .right {
+    order: 3;
+  }
+
+  .logos img {
+    width: 19vh;
+  }
+
+  .sponsorship {
+    width: 45vw;
+    display: flex;
+    align-content: space-around;
+    float: right;
+    margin-top: 38vh;
+  }
+
+  .left p a {
+    font-size: 3.9vw;
+    line-height: 6vh;
+  }
+
+  .locate {
+    padding-top: 5vh;
+  }
+
+  .locate p {
+    font-size: 3.9vw;
+    line-height: 4.5vh;
+  }
+
+  .copyright p {
+    font-size: 3.9vw;
+    padding-top: 5.5vh;
+  }
+}
+
+@media (max-width: 375px) {
+  /* Footer */
+
+  .sponsorship {
+    width: 27vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 39vh;
+  }
+
+  .sponsorship1,
+  .sponsorship2,
+  .sponsorship3,
+  .sponsorship4 {
+    width: 6vh;
+    height: 6vh;
+  }
+
+  .left p a {
+    font-size: 4.5vw;
+    line-height: 6vh;
+  }
+
+  .locate {
+    padding-top: 7vh;
+  }
+
+  .locate p {
+    font-size: 4.7vw;
+    line-height: 4.5vh;
+  }
+
+  .copyright p {
+    font-size: 4.5vw;
+    padding-top: 3.5vh;
+  }
+}
+
+@media (max-width: 320px) {
+  /* Footer */
+
+  .carousel-inner img {
+    height: 41vh;
+  }
+
+  .footer {
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+  }
+
+  .sponsorship {
+    width: 10vh;
+    display: grid;
+    grid-template-areas:
+      'sponsorship1 sponsorship2'
+      'sponsorship3 sponsorship4';
+    gap: 3vh;
+    justify-content: space-between;
+    margin-top: 32.5vh;
+    margin-right: 40vh;
+  }
+
+  .sponsorship1,
+  .sponsorship2,
+  .sponsorship3,
+  .sponsorship4 {
+    width: 6vh;
+    height: 6vh;
+    border-radius: 30px;
+  }
+
+  .left p a {
+    font-size: 5.6vw;
+    line-height: 6vh;
+  }
+
+  .locate {
+    padding-top: 7vh;
+  }
+
+  .locate p {
+    font-size: 5.9vw;
+    text-align: right;
+    line-height: 4.5vh;
+  }
+
+  .copyright p {
+    font-size: 5vw;
+    padding-top: 3vh;
+    padding-left: 39vw;
+  }
+}

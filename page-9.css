@@ -1,0 +1,660 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'Lato';
+}
+
+.nav-link {
+  text-align: center;
+}
+
+#profile1 {
+  display: none;
+  text-decoration: none;
+}
+
+.nav-link-profile2 {
+  padding-top: 0.5vh;
+  margin-left: 59vw;
+}
+
+.navbar {
+  background-color: #0000aa;
+}
+
+.logo img {
+  position: absolute;
+  margin-top: -2vh;
+  width: 8vw;
+}
+
+.navbar-nav {
+  margin-left: 10vw;
+  color: white;
+}
+
+/* BAGIAN 9 */
+
+.background1 img {
+  width: 100vw;
+  height: 91.3vh;
+}
+
+.judul {
+  width: 80vw;
+  margin: auto;
+}
+
+.judul p {
+  font-weight: 400;
+  padding-bottom: 3vh;
+  opacity: 0.8;
+}
+
+.info {
+  width: 80vw;
+  margin: auto;
+  padding: 2vh 2vw;
+  background: rgba(0, 122, 255, 0.13);
+  border: 1px solid #007aff;
+  border-radius: 30px;
+}
+
+.deskripsi {
+  width: 80vw;
+  padding-top: 5vh;
+  margin: auto;
+}
+
+.deskripsi p {
+  font-size: 2vw;
+}
+
+/* Tiket */
+
+.judul h1 {
+  width: 80vw;
+  margin: auto;
+  padding: 9vh 0;
+  font-weight: 600;
+}
+
+.daftar-tiket {
+  padding-bottom: 9vh;
+}
+
+.tiket {
+  width: 80vw;
+  height: 30vh;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.kiri {
+  padding-left: 2vw;
+}
+
+.kiri h1 {
+  font-weight: 600;
+  line-height: 54px;
+}
+
+.kiri p {
+  font-weight: 400;
+  color: #5e5e5e;
+}
+
+.kiri h2 {
+  padding-top: 4vh;
+  font-weight: 600;
+}
+
+#gbr {
+  padding-top: 4vh;
+  padding-left: 12vw;
+}
+
+#gbr img {
+  width: 8vh;
+  height: 8vh;
+  padding: 1vh 0.7vw;
+  border-radius: 15px;
+  background-color: white;
+  box-sizing: border-box;
+  border: 1px solid #0000aa;
+}
+
+.kanan {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+button {
+  width: 12vw;
+  color: white;
+  padding: 0.5vh;
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+
+.beli {
+  width: 12vw;
+  text-align: center;
+  font-size: 2vw;
+  margin-top: 18vh;
+  margin-right: 5vw;
+  padding-right: 2vw;
+  line-height: 31px;
+  color: white;
+  border-radius: 30px;
+  background-color: blue;
+  border: 1px solid blue;
+}
+
+/* Footer */
+
+.bg-footer {
+  width: auto;
+  background-color: blue;
+  position: relative;
+}
+
+.footer {
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding-top: 5vh;
+  color: white;
+}
+
+/* Left */
+
+.left p a {
+  font-size: 2vw;
+  line-height: 8vh;
+  color: white;
+  text-decoration: none;
+}
+
+/* Middle */
+
+.middle {
+  text-align: center;
+}
+
+.logos img {
+  width: 19vh;
+}
+
+.sponsorship {
+  width: 39vh;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5vh;
+}
+
+.sponsorship1,
+.sponsorship2,
+.sponsorship3,
+.sponsorship4 {
+  width: 6vh;
+  height: 6vh;
+  border-radius: 30px;
+  background-color: white;
+}
+
+.sponsorship1 {
+  background: url(icons8-youtube-48.png);
+  background-size: cover;
+}
+.sponsorship2 {
+  background: url(icons8-facebook-48.png);
+  background-size: cover;
+}
+.sponsorship3 {
+  background: url(icons8-instagram-48.png);
+  background-size: cover;
+}
+.sponsorship4 {
+  background: url(icons8-twitter-48.png);
+  background-size: cover;
+}
+
+/* Right */
+
+.locate p {
+  font-size: 2vw;
+  line-height: 5vh;
+}
+
+.copyright p {
+  font-size: 2vw;
+  line-height: 12vh;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1024px) {
+  /* Footer */
+
+  .footer {
+    width: 90vw;
+  }
+
+  .nav-link-profile2 {
+    padding-top: 0.5vh;
+    margin-left: 51vw;
+  }
+}
+
+@media (max-width: 768px) {
+  /* NavBar */
+  .navbar-nav {
+    margin-left: 0vw;
+    color: white;
+  }
+
+  #profile1 {
+    display: block;
+  }
+
+  .nav-link-profile2 {
+    display: none;
+    text-align: center;
+    padding-top: 0;
+    margin-left: 0;
+  }
+
+  .logo img {
+    width: 9vh;
+    margin-top: -4.5vh;
+    position: absolute;
+  }
+
+  /* Bagian 9 */
+
+  button {
+    width: 15vw;
+    color: white;
+    padding: 0.5vh;
+    background-color: transparent;
+    border: 1px solid transparent;
+  }
+
+  .beli {
+    width: 15vw;
+    text-align: center;
+    font-size: 2vw;
+    margin-top: 18vh;
+    margin-right: 5vw;
+    padding-right: 2vw;
+    line-height: 31px;
+    color: white;
+    border-radius: 30px;
+    background-color: blue;
+    border: 1px solid blue;
+  }
+
+  .kiri h2 {
+    padding-top: 0vh;
+  }
+
+  /* Footer */
+
+  .sponsorship {
+    width: 45vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+  }
+
+  .sponsorship1,
+  .sponsorship2,
+  .sponsorship3,
+  .sponsorship4 {
+    width: 6.5vh;
+    height: 6.5vh;
+  }
+
+  .left p a {
+    font-size: 3.5vh;
+    line-height: normal;
+  }
+
+  .locate p {
+    font-size: 3.5vh;
+  }
+
+  .copyright p {
+    font-size: 3.5vh;
+    line-height: normal;
+  }
+}
+@media (max-width: 500px) {
+  .navbar-nav {
+    margin-left: 0vw;
+    color: white;
+  }
+
+  #profile1 {
+    display: block;
+  }
+
+  .nav-link-profile2 {
+    display: none;
+    text-align: center;
+    padding-top: 0;
+    margin-left: 0;
+  }
+
+  .logo img {
+    width: 9vh;
+    margin-top: -4.5vh;
+    position: absolute;
+  }
+
+  /* Tiket */
+
+  .tiket {
+    width: 90vw;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: space-between;
+    background: #ffffff;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+  }
+
+  .kiri h1 {
+    font-size: 5vh;
+    font-weight: 600;
+    line-height: 34px;
+  }
+
+  .kiri p {
+    font-size: 3.4vh;
+    font-weight: 400;
+    color: #5e5e5e;
+  }
+
+  .kiri h2 {
+    font-size: 6vh;
+    font-weight: 600;
+    padding-top: 0;
+  }
+
+  #gbr {
+    margin-left: 10vw;
+  }
+
+  #gbr img {
+    width: 8vh;
+    height: 8vh;
+    padding: 1vh 0.5vw;
+    border-radius: 15px;
+    background-color: white;
+    box-sizing: border-box;
+  }
+
+  .beli {
+    width: 36vw;
+    font-size: 3.5vh;
+    line-height: 21px;
+    color: #0000aa;
+    padding-right: 2vw;
+    margin-left: 2vw;
+    margin-top: 0;
+    margin-bottom: 4vh;
+  }
+
+  button {
+    width: 36vw;
+    color: white;
+    padding: 0.5vh;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 1px solid transparent;
+  }
+}
+
+@media (max-width: 425px) {
+  .deskripsi p {
+    font-size: 3vh;
+  }
+
+  .tiket {
+    width: 80vw;
+    height: 34vh;
+  }
+
+  .beli {
+    width: 36vw;
+    font-size: 3.5vh;
+    line-height: 21px;
+    color: #0000aa;
+    padding-right: 2vw;
+    margin-left: 2vw;
+    margin-top: 0;
+    margin-bottom: 3vh;
+  }
+
+  button {
+    width: 36vw;
+    color: white;
+    padding: 0.5vh;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 1px solid transparent;
+  }
+
+  /* Footer */
+
+  .carousel-inner img {
+    height: 51vh;
+  }
+
+  .sponsorship {
+    width: 56vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+  }
+
+  .sponsorship1,
+  .sponsorship2,
+  .sponsorship3,
+  .sponsorship4 {
+    width: 8vh;
+    height: 8vh;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .left {
+    position: relative;
+    z-index: 2;
+    order: 2;
+  }
+
+  .middle {
+    width: 90vw;
+    order: 1;
+    position: absolute;
+    text-align: right;
+  }
+
+  .right {
+    order: 3;
+  }
+
+  .logos img {
+    width: 19vh;
+  }
+
+  .sponsorship {
+    width: 45vw;
+    display: flex;
+    align-content: space-around;
+    float: right;
+    margin-top: 38vh;
+  }
+
+  .left p a {
+    font-size: 3.9vw;
+    line-height: 6vh;
+  }
+
+  .locate {
+    padding-top: 5vh;
+  }
+
+  .locate p {
+    font-size: 3.9vw;
+    line-height: 4.5vh;
+  }
+
+  .copyright p {
+    font-size: 3.9vw;
+    padding-top: 5.5vh;
+  }
+}
+
+@media (max-width: 375px) {
+  .background1 img {
+    width: 100vw;
+    height: 41.3vh;
+  }
+
+  #gbr {
+    margin-left: 6vw;
+  }
+
+  .tiket {
+    width: 80vw;
+    height: 40vh;
+  }
+
+  .kiri h2 {
+    font-size: 4.5vh;
+    font-weight: 600;
+    padding-top: 0vh;
+    margin-bottom: 2vh;
+  }
+
+  .beli {
+    width: 36vw;
+    font-size: 3.5vh;
+    line-height: 21px;
+    color: #0000aa;
+    padding-right: 2vw;
+    margin-left: 2vw;
+    margin-top: 2vh;
+  }
+
+  /* Footer */
+
+  .sponsorship {
+    width: 27vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 39vh;
+  }
+
+  .sponsorship1,
+  .sponsorship2,
+  .sponsorship3,
+  .sponsorship4 {
+    width: 6vh;
+    height: 6vh;
+  }
+
+  .left p a {
+    font-size: 4.5vw;
+    line-height: 6vh;
+  }
+
+  .locate {
+    padding-top: 7vh;
+  }
+
+  .locate p {
+    font-size: 4.7vw;
+    line-height: 4.5vh;
+  }
+
+  .copyright p {
+    font-size: 4.5vw;
+    padding-top: 3.5vh;
+  }
+}
+
+@media (max-width: 320px) {
+  /* Footer */
+
+  .carousel-inner img {
+    height: 41vh;
+  }
+
+  .footer {
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+  }
+
+  .sponsorship {
+    width: 10vh;
+    display: grid;
+    grid-template-areas:
+      'sponsorship1 sponsorship2'
+      'sponsorship3 sponsorship4';
+    gap: 3vh;
+    justify-content: space-between;
+    margin-top: 32.5vh;
+    margin-right: 40vh;
+  }
+
+  .sponsorship1,
+  .sponsorship2,
+  .sponsorship3,
+  .sponsorship4 {
+    width: 6vh;
+    height: 6vh;
+    border-radius: 30px;
+  }
+
+  .left p a {
+    font-size: 5.6vw;
+    line-height: 6vh;
+  }
+
+  .locate {
+    padding-top: 7vh;
+  }
+
+  .locate p {
+    font-size: 5.9vw;
+    text-align: right;
+    line-height: 4.5vh;
+  }
+
+  .copyright p {
+    font-size: 5vw;
+    padding-top: 3vh;
+    padding-left: 39vw;
+  }
+}
